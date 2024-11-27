@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(90deg, #ff4500, #ff6347);
+    color: #fff;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+header button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background: #fff;
+    color: #ff4500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#features {
+    padding: 2rem;
+    text-align: center;
+}
+
+.features-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.feature {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 30%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#card-creator {
+    background: #fff;
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin: 1rem 0 0.5rem;
+}
+
+form input, form select, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin: 0.5rem 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+}
